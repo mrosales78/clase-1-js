@@ -51,20 +51,59 @@ mas de una  linea*/
       //let = guardoedad = prompt("ingrese edad")
     
 
-      let numero1 = 0
-      console.log("el valor inicial es del tipo",typeof(numero1))
-      numero1 =parseInt(prompt("ingrese primer numero "))
-      console.log(typeof(numero1))
-      let numero2 = 0
-      numero2 = parseInt(prompt("ingrese segundo numero "))
-      let = resultadomulti = numero1*numero2
-      let = resultadodivi = numero1/numero2
-      let = resultadoresta = numero1-numero2
-      let = resultadosuma = numero1+numero2
-      console.log(resultadosuma)
+       /*   let numero1 = 0
+            console.log("el valor inicial es del tipo",typeof(numero1))
+            numero1 =parseInt(prompt("ingrese primer numero "))
+            console.log(typeof(numero1))
+            let numero2 = 0
+            numero2 = parseInt(prompt("ingrese segundo numero "))//parseint pasa valor a numerico 
+            let = resultadomulti = numero1*numero2
+            let = resultadodivi = numero1/numero2
+            let = resultadoresta = numero1-numero2
+            let = resultadosuma = numero1+numero2
+            console.log(resultadosuma)
+        */
+
+
+//estructura condicional simple
+
+/* let nota= parseInt(prompt("ingrese la nota de alumno"))
+
+    if(nota >= 5 ){ //3 items(variable-operador relacional y otra variable que puese ser(numerica, string o booleana))
+    console.log("aprueba la materia")
+
+    
+                    }
+        console.log("otra cosa")
+ */
+
+//estructura condicional compuesta 
+
+     let nota= parseInt(prompt("ingrese la nota de alumno"))
+
+    /*if(nota >= 5 ){ 
+                    console.log("aprueba la materia")
+    } else{
+        console.log("no aprobado")
+    } */
+
+//operador ternario (se usa cuanto tengo if y else solamente)
+let notaaprobado = 5
+
+nota>= notaaprobado ? console.log("aprueba la materia") :  console.log("no aprobado")
 
 
 
 
 
+// operadores relaciones
+    /*
+    >mayor
+    >= mayor o igual
+    <menor
+    <= menor o igual
+    != distinto
+    == igual igual
+    === extrictamente igual
 
+    */
