@@ -33,10 +33,38 @@ mas de una  linea*/
     console.log ("este es el valor de la ultima variable" ,nuevonumero)
 */
 
-let nombre = "juan pedro"
-let edad = 36
-let estadocivil = "casado"
-let sabeprogramar = false
+/* let nombre = "juan pedro"
+    let edad = 36
+    let estadocivil = "casado"
+    let sabeprogramar = false
 
-console.log("tu nommbre es",nombre, "tu edad es",edad,"tu estado civil es",estadocivil,"sabe programar", sabeprogramar)
+    console.log("tu nommbre es",nombre, " y tu edad es",edad,"años","tu estado civil es",estadocivil,"sabe programar", sabeprogramar) //no se utiliza al dia de hoy
+    console.log("tu nommbre es " + nombre +  " y tu edad es " + edad + " años" + " tu estado civil es " + estadocivil + " sabe programar " + sabeprogramar) //no se ultiliza al dia de hoy
+
+    //template string es lo que se usa hoy en dia(para poner comilla invertida usar alt96 ``)
+
+    console.log(`tu nombre es ${nombre} tu edad es ${edad} años tu estado civil es ${estadocivil} `)
+*/
+
+//entrada de datos por teclado
+   //let = guardonombre = prompt("ingrese su nombre") //hoy en dia no se utiliza mas prompt
+      //let = guardoedad = prompt("ingrese edad")
+    
+
+      let numero1 = 0
+      console.log("el valor inicial es del tipo",typeof(numero1))
+      numero1 =parseInt(prompt("ingrese primer numero "))
+      console.log(typeof(numero1))
+      let numero2 = 0
+      numero2 = parseInt(prompt("ingrese segundo numero "))
+      let = resultadomulti = numero1*numero2
+      let = resultadodivi = numero1/numero2
+      let = resultadoresta = numero1-numero2
+      let = resultadosuma = numero1+numero2
+      console.log(resultadosuma)
+
+
+
+
+
 
