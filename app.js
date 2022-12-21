@@ -33,5 +33,10 @@ mas de una  linea*/
     console.log ("este es el valor de la ultima variable" ,nuevonumero)
 */
 
+let nombre = "juan pedro"
+let edad = 36
+let estadocivil = "casado"
+let sabeprogramar = false
 
+console.log("tu nommbre es",nombre, "tu edad es",edad,"tu estado civil es",estadocivil,"sabe programar", sabeprogramar)
 
