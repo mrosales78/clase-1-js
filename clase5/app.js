@@ -3,17 +3,17 @@
 
 
 
-//let arraydos=[56,`hola mundo`,3.06,`t`,true,[`hola`,100]]
+let arraydos=[56,`hola mundo`,3.06,`t`,true,[`hola`,100]]
 
 //recorrer array
 
-/* for(let y of arraydos){
+ for(let y of arraydos){
     console.log(y)
-} */
+} 
 
-/* for(let i=0;i<=5;i++){
+ for(let i=0;i<=5;i++){
 console.log(`recorrido con un for`,arraydos[i])
-} */
+} 
 
 /* let x=0
 
