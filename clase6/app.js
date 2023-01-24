@@ -1,5 +1,5 @@
 
-let lista= document.getElementById(`lista`)
+/* let lista= document.getElementById(`lista`)
 let cuerpo= document.getElementById(`cuerpo`)
 let micolor= prompt('ingrese color')
 
@@ -20,9 +20,46 @@ for(let i=0;i<recorrer;i++){
 
 //acumulador= acumulador+valor
 //acumulador+=valor(similar al anterior pero mas acotado)
+} */
+
+/* let numeroaleatorio= Math.random() * 50
+
+let resultadofinal= Math.floor(numeroaleatorio)
+console.log(resultadofinal) */
+
+/* 
+let btn= document.getElementById('btn')
+let cuerpo= document.getElementById('cuerpo')
+let textocolor= document.getElementById('textocolor')
+let hex= [0,1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"]
+
+function haceclick() {
+let hexcolor='#'
+
+for(let i=0; i<6; i++){    
+    //console.log (hex[i])
+    hexcolor=`${hexcolor}${hex[obtenernumero()]}`
+    console.log (hexcolor)
+
 }
+cuerpo.style.backgroundColor=hexcolor
+textocolor.innerHTML= hexcolor
+}
+function obtenernumero(){
 
+let resultado= Math.floor(Math.random() * hex.length)
+return resultado
+}
+obtenernumero() */
 
+let hora= document.getElementById('hora')
+
+function mihora(){
+let mivariable= new Date()
+
+hora.innerText = (`${mivariable.getHours()}:${mivariable.getMinutes()}:${mivariable.getSeconds()}`)
+}
+setInterval(mihora,1000)
 
 
 //metodos array
